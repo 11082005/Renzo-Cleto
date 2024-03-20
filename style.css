@@ -1,0 +1,33 @@
+.topic-list {
+    list-style-type: none; /* Removendo os marcadores de lista */
+    margin: 0; /* Removendo margem */
+    padding: 10px 0; /* Adicionando espaço interno acima e abaixo */
+    background-color: #f1f1f1; /* Cor de fundo do tópico */
+    text-align: center; /* Centralizando o texto */
+    font-size: 1.2em; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    border-bottom: 2px solid #ddd; /* Adicionando uma linha de separação */
+}
+
+.topic-list li {
+    display: inline-block; /* Exibindo os itens da lista em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+    color: #333; /* Cor do texto */
+}
+
+.topic-list li:last-child {
+    margin-right: 0; /* Removendo o espaçamento do último item */
+}
+
+/* Estilizando o carousel */
+.carousel {
+    max-width: 600px; /* Definindo a largura máxima do carousel */
+    margin: auto; /* Centralizando o carousel na página */
+}
+
+/* Estilizando as imagens dentro do carousel */
+.carousel-item img {
+    max-width: 100%; /* Garantindo que a imagem não ultrapasse o tamanho do carousel */
+    height: auto; /* Mantendo a proporção da imagem */
+}
+
